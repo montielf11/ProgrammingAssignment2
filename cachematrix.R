@@ -15,10 +15,10 @@ get<-function() x                                                               
 setInverse<-function(solveMatrix) inver<<-solveMatrix                           
 getInverse<-function() inver                                                    ##Function to obtain inverse
 list(set=set, get=get, setInverse=setInverse, getInverse=getInverse)                    
-
+}
 ## Write a short comment describing this function
         ## Return a matrix that is the inverse of 'x'
-}
+
 
 
 cacheSolve <- function(x, ...) {                                                ##Obtaining Cache data                           ``
